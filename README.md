@@ -4,7 +4,7 @@ Config files to maintain UX across devices, and setup scripts to simplify initia
 
 ## ⚠️ PLEASE READ BEFORE PROCEEDING: ️⚠️
 
-If you will be running the macOS setup script, then you _must_ install ~~Xcode via the App Store~~ Xcode Commandline tools beforehand.  The command `xcode-select` is a utility for switching among more than one command line tools directory. It also can be used to install Xcode Command Line Tools with the command `xcode-select --install`.
+If you will be running the macOS setup script, then you _must_ install ~~Xcode via the App Store~~ Xcode Command Line Tools beforehand.  The command `xcode-select` is a utility for switching among more than one command line tools directory. It also can be used to install Xcode Command Line Tools with the command `xcode-select --install`.
 
 The command `xcode-select --install` will open a dialog for installation of the command line tools.
 
