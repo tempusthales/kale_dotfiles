@@ -4,17 +4,9 @@ Config files to maintain UX across devices, and setup scripts to simplify initia
 
 ## ⚠️ PLEASE READ BEFORE PROCEEDING: ️⚠️
 
-If you will be running the macOS setup script, then you _must_ install **Xcode via the App Store** beforehand.
+If you will be running the macOS setup script, then you _must_ install ~~Xcode via the App Store~~ Xcode Commandline tools beforehand.  The command `xcode-select` is a utility for switching among more than one command line tools directory. It also can be used to install Xcode Command Line Tools with the command `xcode-select --install`.
 
-Additionally, on macOS Mojave you _may_ run into issues with Homebrew attempting to install Xcode's commandline tools but failing to do so because of something like:
-
-> An update is not available on the server
-
-To get around this, manually download and run the Command Line Tools installer from Apple's developer site:
-
-https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_macOS_10.14_for_Xcode_10/Command_Line_Tools_macOS_10.14_for_Xcode_10.dmg
-
-This may not be an issue for future macOS or Xcode releases.
+The command `xcode-select --install` will open a dialog for installation of the command line tools.
 
 ## Instructions
 
